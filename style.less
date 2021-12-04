@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Alternates&family=Outfit&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(235, 235, 235);
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Outfit', sans-serif;
+}
+
+.generator {
+    height: 100vh;
+    width: 500px;
+    margin: auto auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.generator__title {
+    margin: 40px 0 40px 0;
+}
+
+.generator__options-item {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 400px;
+    padding: 0 20px;
+    background-color: white;
+    margin: 5px 0;
+
+    .numbers {
+        width: 20px;
+        height: 20px;
+        margin: 0 20px 0 0;
+        cursor: pointer;
+    }
+    .lowerCase {
+        width: 20px;
+        height: 20px;
+        margin: 0 20px 0 0;
+        cursor: pointer;
+    }
+    .symbols {
+        width: 20px;
+        height: 20px;
+        margin: 0 20px 0 0;
+        cursor: pointer;
+    }
+
+    p {
+        background: none;
+    }
+
+    .length {
+        width: 40px;
+        height: 20px;
+        margin: 0 0 0 190px;
+        border: 1px solid gray;
+        background: none;
+        font-size: 20px;
+        text-align: right;
+        padding: 0 5px 0 0;
+        &:focus {
+            outline: none;
+        }
+    }
+}
+
+.generator__button {
+    button {
+        width: 180px;
+        height: 50px;
+        text-align: center;
+        font-size: 25px;
+        border: 1px solid white;
+        background: rgb(44, 122, 224);
+        color: white;
+        margin: 40px 0 0 0;
+        cursor: pointer;
+    }
+}
+
+.generator__password {
+    width: 440px;
+    height: 130px;
+    background: white;
+    margin: 40px 0 0 0;
+    padding: 5px;
+
+    p {
+        background: none;
+        color: gray;
+    }
+}
+
+.password {
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 0 0 0;
+    background: none;
+}
